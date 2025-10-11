@@ -15,7 +15,7 @@ The **proofs** and a **training-framework pseudocode sketch** are included in `I
 ### 1.2 TCGA
 
 1. Obtain the **raw TCGA data** via :
-   [https://github.com/d909b/drnet/tree/master](https://github.com/d909b/drnet/tree/master)
+   [https://paperdatasets.s3.amazonaws.com/tcga.db]
 2. After downloading, run:
 
    ```bash
