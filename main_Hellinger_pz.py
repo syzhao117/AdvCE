@@ -38,7 +38,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # ---------------- Argparse ----------------
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
-        description="Train CCS Counterfactual Net (CPU-only, Hellinger regularizer).",
+        description="Train HL Counterfactual Net (CPU-only, Hellinger regularizer).",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     p.add_argument("--beta", type=float, default=0.001, help="Weight for Hellinger term")
